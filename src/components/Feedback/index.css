@@ -1,0 +1,54 @@
+/* Write your CSS code here. */
+
+.bg-container {
+  background-image: linear-gradient(#ffeeee, #ffc0bb);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid;
+  border-radius: 12px;
+  padding: 12px;
+  background-color: white;
+  
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: black;
+}
+
+.para {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: black;
+}
+
+.img {
+  height: 50px;
+  width: 50px;
+  margin: 12px;
+  cursor: pointer;
+}
